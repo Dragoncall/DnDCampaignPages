@@ -75,9 +75,8 @@ function setText(className, isCity) {
 function showCities(className) {
     let subMenu = $('#sub-menu')
     subMenu.html('')
-    cityNames = []
     for (let name of Object.keys(worldInfo[className].cities)) {
-        let r= $('<button id="button-' + name + '" onclick="focusCity(\'' + name + '\')" class="continent-button subtitle is-block">' + name + '</button>');
+        let r= $('<button id="button-' + name + '" onclick="focusCity(\'' + name + '\')" class="continent-button subtitle is-block">' + name.replace('_', ' ') + '</button>');
         subMenu.append(r);
     }
     continentInfo = worldInfo[className].cities

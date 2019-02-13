@@ -2,9 +2,21 @@
   "khalesh" : {
     "description": "<p class='title has-text-centered'>Khalesh</p><p>Khalesh, the central continent on the plane of Zimmas, ruled by the Kundagar dynasty, its latest king Eric, is the most diverse of all continents. The many climates present on one huge landmass gift the citizens of this continent a plethora of produce. The deep caverns under the Virruk mountains supply the continent with gems and ores, while the farming communities around the Shiram and Zamnesia forest produce wheat and wood for the rest of the empire. In the West, the large Esmor Desert fills the landmass with sand. A couple of villages lie in this desolate landscape and focus on fashion and manufactures of all kinds of products. In the east, the great Ergalon Tundra compresses the ice essence. The region is focused on seal hunting and other hunting and fishing activities. In the south, Verkenarch stands proud as the largest outpost erected during the Arcanis Mortem. Thanks to the proximity to the sea in practically every village, many harbours have been constructed to transport the goods over the continent.</p>",
     "cities": {
+      "Esmor_Desert": {
+        "description": "<p class='title has-text-centered'>Esmor Desert</p><p>The Esmor Desert is a large desert lying in the west of Eos. The desolate landscape is filled with sand dunes and ruins of lost civilizations. Legends tell of a long lost, less barren land, but reasons why the desert was formed are currently still dubious.</p>",
+        "x": "40%",
+        "y": "64%",
+        "size": "400%"
+      },
       "Eos": {
         "description": "<p class='title has-text-centered'>Eos</p><p>No info about this yet...</p>",
         "x": "38%",
+        "y": "64%",
+        "size": "1000%"
+      },
+      "Port_Pegasus": {
+        "description": "<p class='title has-text-centered'>Port Pegasus</p><p class='subtitle'>Geography</p><p>Port Pegasus lies to the west of Eos, being the largest trading hub outside the city and an important crossing for multiple trade routes.</p><p class='subtitle'>Economy</p><p>Port Pegasus is the most important trading hub in the west of Khalesh. Most of the export goods consist of desert fruits and fashion created in Mohram, as well as rare ores and gems mined from the Mehryl mines. The port started as a small port town, but has grown in size, almost being twice the size of Ahramis.</p><p class='subtitle'>Politics</p><p>Port Pegasus falls under the jurisdiction of Eos and has no independent mayor. An appointed adviser is responsible for the port, but rules from Eos.</p>",
+        "x": "37%",
         "y": "64%",
         "size": "1000%"
       },
@@ -24,6 +36,12 @@
         "description": "<p class='title has-text-centered'>Emyralis</p><p>No info about this yet...</p>",
         "x": "46%",
         "y": "56%",
+        "size": "1000%"
+      },
+      "Mehryl": {
+        "description": "<p class='title has-text-centered'>Mehryl</p><p class=\"subtitle\">Geography</p><p>Mehryl lies in the southern part of the Esmor desert, only connected to other villages by a road to Ahramis. It lies a few miles from the sea, giving it a steady supply of water.</p><p class=\"subtitle\">Economy</p><p>Mehryl was once a flourishing city, filled with manufactures. The real money was gained in the mines of Mehryl, where gems and ores were found easily. The discovery of arcane crystals in the mines triggered a huge gold rush. Now, the gold rush ended due to abominations swarming the mines and the manufactures left Mehryl. The town is now on the brink of collapse as its citizen numbers dwindle.</p><p class=\"subtitle\">Politics</p><p>As with all neighbouring villages, Mehryl has a mayor who rules the city. The city also has a large mining guild who has a large hold over the mayor and the city.</p>",
+        "x": "48%",
+        "y": "66%",
         "size": "1000%"
       }
     },
