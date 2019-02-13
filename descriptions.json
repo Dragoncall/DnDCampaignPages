@@ -43,6 +43,24 @@
         "x": "48%",
         "y": "66%",
         "size": "1000%"
+      },
+      "Central_Khalesh": {
+        "description": "<p class='title has-text-centered'>Central Khalesh</p><p>Central Khalesh, mostly known for its lush forests and large plains of grass, lies in the middle of Khalesh. This region is mostly known for its agriculture, as it has a temperate climate perfect for agriculture. Small farming villages dot the plains, only split by the large mountain range, the Virruk Mountains. Trade is also flourishing in this region with the 2 large port cities.</p>",
+        "x": "60%",
+        "y": "58%",
+        "size": "350%"
+      },
+      "Shembran_Harbor": {
+        "description": "<p class='title has-text-centered'>Shembran Harbor</p><p class='subtitle'>Geography</p><p>Shembran Harbor is the largest harbor city on the western side of the Virruk Mountains. Its position on Khalesh makes it a frequently visited port on practically every trade route.</p><p class='subtitle'>Economy</p><p>The harbor has grown rapidly these last years to a size that's comparable to the largest cities on Khalesh. The many wooden shacks are packed within the walls of the city, with some shacks even resting on a wooden platform over the water. The city is in a constant struggle with the water and has made precautions against the strong storms. The city mainly lives from fishing and trade, sailors making up the largest portion of its citizens.</p><p class='subtitle'>Politics</p><p>Due to its size, the political hierarchy in Shembran Harbor is slightly more complex. The mayor sits on top, with some advisers hailing from the nobility aiding the mayor in representing all citizens.</p>",
+        "x": "50%",
+        "y": "48%",
+        "size": "1000%"
+      },
+      "Sherwey": {
+        "description": "<p class='title has-text-centered'>Sherwey</p><p class='subtitle'>Geography</p><p>Sherwey lies in the middle of Shiram Forest, in Central Khalesh. The climate and soil make it the perfect spot for agriculture.</p><p class='subtitle'>Economy</p><p>The little farming village mainly produces fruit and vegetables, the most important export product being watermelons. This has earned the city the nickname: 'Melonshire'. Due to being located in the forest, where animals and abominations roam, a slayers guild has been erected in recent years with funding from the crown.</p><p class='subtitle'>Politics</p><p>Traditionally, the scale of the city made it perfect to be ruled by one person, the village elder. When Sherwey was absorbed in the Kundagar Empire, a mayor was appointed by the villagers to replace the village elder.</p>",
+        "x": "58%",
+        "y": "54%",
+        "size": "1000%"
       }
     },
     "x": "50%",

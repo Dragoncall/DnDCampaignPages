@@ -10,7 +10,9 @@
 </head>
 <body>
     <div class="is-hidden" id="not-loading">
-        <a class="delete is-large" onclick="hideOverlays()" style="position: absolute; right: 10px; top: 10px; z-index: 100;"></a>
+        <div style="position: absolute; right: 10px; top: 10px; z-index: 100;">
+            <button class="button is-white" onclick="hideOverlays()">Hide Overlay</button>
+        </div>
         <section class="hero is-dark semi-opaque-background animate-world" style="height: 100vh; width: 100vw;" id="top-hero">
             <div class="animate-world-overlay" style="height: 100vh; width: 100vw;" id="world-overlay">
                 <div class="hero-body is-fullwidth" style="height: 100vh; max-height: 100vh;">
@@ -18,7 +20,7 @@
                         <div style="width: 100%; margin-left: auto; margin-right: auto; overflow-y: scroll; overflow-x: hidden; height: 100%">
                             <p class="title has-text-centered" style="margin-bottom: 64px">Zimmas</p>
                             <div class="columns">
-                                <div class="column is-3">
+                                <div class="column is-3 button-block">
                                     <div class="has-text-left">
                                         <button id="button-khalesh" onclick="focusKhalesh()" class="continent-button subtitle is-block">Khalesh</button>
                                         <button id="button-eryltell" onclick="focusErylTell()" class="continent-button subtitle is-block">Eryl'tell</button>
@@ -26,7 +28,7 @@
                                         <button id="button-verzug" onclick="focusVerZug()" class="continent-button subtitle is-block">Ver'Zug</button>
                                     </div>
                                 </div>
-                                <div class="column is-3 is-hidden" id="sub-menu">
+                                <div class="column is-3 is-hidden button-block" id="sub-menu">
                                 </div>
                                 <div class="column is-4" id="description">
                                     <div class="content has-text-left">

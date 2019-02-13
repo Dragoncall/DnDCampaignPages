@@ -463,3 +463,78 @@
 [info] 
 [info] Project Console: https://console.firebase.google.com/project/dndpages/overview
 [info] Hosting URL: https://dndpages.firebaseapp.com
+[debug] [2019-02-13T14:23:01.127Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T14:23:01.131Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting --debug
+[debug] [2019-02-13T14:23:01.131Z] CLI Version:   6.3.1
+[debug] [2019-02-13T14:23:01.131Z] Platform:      darwin
+[debug] [2019-02-13T14:23:01.131Z] Node Version:  v8.5.0
+[debug] [2019-02-13T14:23:01.132Z] Time:          Wed Feb 13 2019 15:23:01 GMT+0100 (CET)
+[debug] [2019-02-13T14:23:01.132Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T14:23:01.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T14:23:01.145Z] > authorizing via signed-in user
+[debug] [2019-02-13T14:23:01.145Z] [iam] checking project dndpages for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-13T14:23:01.147Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-13T14:23:01.148Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-13T14:23:01.344Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T14:23:01.377Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dndpages:testIamPermissions  
+
+[debug] [2019-02-13T14:23:02.095Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T14:23:02.097Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dndpages  
+ 
+[debug] [2019-02-13T14:23:02.402Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-13T14:23:02.408Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions  
+
+[debug] [2019-02-13T14:23:04.072Z] <<< HTTP RESPONSE 200
+[info] i  hosting[dndpages]: beginning deploy...
+[info] i  hosting[dndpages]: found 64 files in ./
+[debug] [2019-02-13T14:23:04.101Z] [hosting] hash cache [] load error: lines is not defined
+[debug] [2019-02-13T14:23:04.556Z] [hosting] hash cache [] stored for 64 files
+[debug] [2019-02-13T14:23:04.556Z] [hosting][hash queue][FINAL]
+[debug] [2019-02-13T14:23:04.557Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/8453bf2228b9651e:populateFiles  
+ <request body omitted>
+[debug] [2019-02-13T14:23:06.062Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T14:23:06.092Z] [hosting][populate queue][FINAL]
+[debug] [2019-02-13T14:23:06.092Z] [hosting] uploads queued: 49
+[info] i  hosting: uploading new files [0/49] (0%)
+[info] i  hosting: uploading new files [3/49] (6%)
+[info] i  hosting: uploading new files [45/49] (91%)
+[info] i  hosting: uploading new files [47/49] (95%)
+[debug] [2019-02-13T14:23:13.231Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[dndpages]: file upload complete
+[debug] [2019-02-13T14:23:13.232Z] [hosting] deploy completed after 9158ms
+[debug] [2019-02-13T14:23:13.349Z] [
+  {
+    "config": {
+      "public": "./",
+      "ignore": [
+        "firebase.json"
+      ],
+      "site": "dndpages"
+    },
+    "site": "dndpages",
+    "version": "sites/dndpages/versions/8453bf2228b9651e"
+  }
+]
+[info] i  hosting[dndpages]: finalizing version...
+[debug] [2019-02-13T14:23:13.350Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/8453bf2228b9651e?updateMask=status  
+
+[debug] [2019-02-13T14:23:14.322Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T14:23:14.322Z] [hosting] finalized version for dndpages:
+[info] ✔  hosting[dndpages]: version finalized
+[info] i  hosting[dndpages]: releasing new version...
+[debug] [2019-02-13T14:23:14.323Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/releases?version_name=sites/dndpages/versions/8453bf2228b9651e  
+
+[debug] [2019-02-13T14:23:15.368Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T14:23:15.368Z] [hosting] release:
+[info] ✔  hosting[dndpages]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/dndpages/overview
+[info] Hosting URL: https://dndpages.firebaseapp.com

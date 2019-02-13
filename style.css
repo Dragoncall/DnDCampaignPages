@@ -231,3 +231,8 @@ li {
 .loading-text {
     margin: 50px;
 }
+
+.button-block {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
