@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+
+</head>
+<body>
+    <div class="is-hidden" id="not-loading">
+        <a class="delete is-large" onclick="hideOverlays()" style="position: absolute; right: 10px; top: 10px; z-index: 100;"></a>
+        <section class="hero is-dark semi-opaque-background animate-world" style="height: 100vh; width: 100vw;" id="top-hero">
+            <div class="animate-world-overlay" style="height: 100vh; width: 100vw;" id="world-overlay">
+                <div class="hero-body is-fullwidth" style="height: 100vh; max-height: 100vh;">
+                    <div class="container" style="height: 100%;">
+                        <div style="width: 100%; margin-left: auto; margin-right: auto; overflow-y: scroll; overflow-x: hidden; height: 100%">
+                            <p class="title has-text-centered" style="margin-bottom: 64px">Zimmas</p>
+                            <div class="columns">
+                                <div class="column is-3">
+                                    <div class="has-text-left">
+                                        <button id="button-khalesh" onclick="focusKhalesh()" class="continent-button subtitle is-block">Khalesh</button>
+                                        <button id="button-eryltell" onclick="focusErylTell()" class="continent-button subtitle is-block">Eryl'tell</button>
+                                        <button id="button-azuros" onclick="focusAzuros()" class="continent-button subtitle is-block">Azuros</button>
+                                        <button id="button-verzug" onclick="focusVerZug()" class="continent-button subtitle is-block">Ver'Zug</button>
+                                    </div>
+                                </div>
+                                <div class="column is-3 is-hidden" id="sub-menu">
+                                </div>
+                                <div class="column is-4" id="description">
+                                    <div class="content has-text-left">
+                                        <div id="info-block"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="hero is-dark" style="height: 100vh; width: 100vw;" id="loading">
+        <div class="hero-body">
+            <p class="has-text-centered loading-text title">Loading...</p>
+            <progress class="progress is-large is-info"></progress>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src='jquery.keyframes.min.js'></script>
+    <script src="script.js"></script>
+</body>
+</html>

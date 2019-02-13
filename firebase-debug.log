@@ -1,0 +1,465 @@
+[debug] [2019-02-13T11:44:59.578Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T11:44:59.581Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2019-02-13T11:44:59.581Z] CLI Version:   3.15.3
+[debug] [2019-02-13T11:44:59.581Z] Platform:      darwin
+[debug] [2019-02-13T11:44:59.581Z] Node Version:  v8.5.0
+[debug] [2019-02-13T11:44:59.582Z] Time:          Wed Feb 13 2019 12:44:59 GMT+0100 (CET)
+[debug] [2019-02-13T11:44:59.582Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T11:44:59.598Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T11:44:59.599Z] > authorizing via signed-in user
+[debug] [2019-02-13T11:44:59.603Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dndpages  
+ Wed Feb 13 2019 12:44:59 GMT+0100 (CET)
+[debug] [2019-02-13T11:45:00.228Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T11:45:00.229Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dndpages/tokens  
+ Wed Feb 13 2019 12:45:00 GMT+0100 (CET)
+[debug] [2019-02-13T11:45:01.873Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing ./ directory for upload...
+[debug] [2019-02-13T11:45:03.111Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/dndpages/uploads/-LYaf9kKml8-7bUx8xsC?fileCount=15&message=  
+ Wed Feb 13 2019 12:45:03 GMT+0100 (CET)
+[debug] [2019-02-13T11:45:45.256Z] <<< HTTP RESPONSE 410
+[debug] [2019-02-13T11:45:45.257Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2019-02-13T11:45:45.258Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:10:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:43:25)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:125:13)
+    at Request.emit (events.js:213:7)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:115:13)
+    at Request.emit (events.js:210:7)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:314:30)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-02-13T11:48:24.296Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T11:48:24.300Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting --debug
+[debug] [2019-02-13T11:48:24.300Z] CLI Version:   3.15.3
+[debug] [2019-02-13T11:48:24.300Z] Platform:      darwin
+[debug] [2019-02-13T11:48:24.300Z] Node Version:  v8.5.0
+[debug] [2019-02-13T11:48:24.301Z] Time:          Wed Feb 13 2019 12:48:24 GMT+0100 (CET)
+[debug] [2019-02-13T11:48:24.301Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T11:48:24.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T11:48:24.317Z] > authorizing via signed-in user
+[debug] [2019-02-13T11:48:24.319Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dndpages  
+ Wed Feb 13 2019 12:48:24 GMT+0100 (CET)
+[debug] [2019-02-13T11:48:27.767Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T11:48:27.768Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dndpages/tokens  
+ Wed Feb 13 2019 12:48:27 GMT+0100 (CET)
+[debug] [2019-02-13T11:48:29.418Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing ./ directory for upload...
+[debug] [2019-02-13T11:48:32.982Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/dndpages/uploads/-LYafxwur-qpFWwHEvit?fileCount=15&message=  
+ Wed Feb 13 2019 12:48:32 GMT+0100 (CET)
+[debug] [2019-02-13T11:49:20.659Z] <<< HTTP RESPONSE 410
+[debug] [2019-02-13T11:49:20.659Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2019-02-13T11:49:20.661Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:10:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:43:25)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:125:13)
+    at Request.emit (events.js:213:7)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:115:13)
+    at Request.emit (events.js:210:7)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:314:30)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-02-13T12:08:40.916Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T12:08:40.920Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting --debug
+[debug] [2019-02-13T12:08:40.920Z] CLI Version:   3.15.3
+[debug] [2019-02-13T12:08:40.920Z] Platform:      darwin
+[debug] [2019-02-13T12:08:40.920Z] Node Version:  v8.5.0
+[debug] [2019-02-13T12:08:40.921Z] Time:          Wed Feb 13 2019 13:08:40 GMT+0100 (CET)
+[debug] [2019-02-13T12:08:40.921Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T12:08:40.937Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T12:08:40.938Z] > authorizing via signed-in user
+[debug] [2019-02-13T12:08:40.939Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dndpages  
+ Wed Feb 13 2019 13:08:40 GMT+0100 (CET)
+[debug] [2019-02-13T12:08:42.207Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:08:42.208Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dndpages/tokens  
+ Wed Feb 13 2019 13:08:42 GMT+0100 (CET)
+[debug] [2019-02-13T12:08:43.757Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing ./ directory for upload...
+[debug] [2019-02-13T12:08:45.532Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/dndpages/uploads/-LYaka1aLG2QeGBHyfTf?fileCount=15&message=  
+ Wed Feb 13 2019 13:08:45 GMT+0100 (CET)
+[debug] [2019-02-13T12:08:53.499Z] <<< HTTP RESPONSE 410
+[debug] [2019-02-13T12:08:53.500Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2019-02-13T12:08:53.501Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:10:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:43:25)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:125:13)
+    at Request.emit (events.js:213:7)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:115:13)
+    at Request.emit (events.js:210:7)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:314:30)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-02-13T12:11:53.333Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T12:11:53.337Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting --debug
+[debug] [2019-02-13T12:11:53.338Z] CLI Version:   6.3.1
+[debug] [2019-02-13T12:11:53.338Z] Platform:      darwin
+[debug] [2019-02-13T12:11:53.338Z] Node Version:  v8.5.0
+[debug] [2019-02-13T12:11:53.339Z] Time:          Wed Feb 13 2019 13:11:53 GMT+0100 (CET)
+[debug] [2019-02-13T12:11:53.339Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T12:11:53.354Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T12:11:53.354Z] > authorizing via signed-in user
+[debug] [2019-02-13T12:11:53.355Z] [iam] checking project dndpages for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-13T12:11:53.357Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dndpages:testIamPermissions  
+
+[debug] [2019-02-13T12:11:54.407Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:11:54.409Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dndpages  
+ 
+[debug] [2019-02-13T12:11:55.107Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-13T12:11:55.113Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions  
+
+[debug] [2019-02-13T12:11:57.825Z] <<< HTTP RESPONSE 200
+[info] i  hosting[dndpages]: beginning deploy...
+[info] i  hosting[dndpages]: found 15 files in ./
+[debug] [2019-02-13T12:11:57.835Z] [hosting] hash cache [] not populated
+[debug] [2019-02-13T12:11:58.215Z] [hosting] hash cache [] stored for 15 files
+[debug] [2019-02-13T12:11:58.215Z] [hosting][hash queue][FINAL]
+[debug] [2019-02-13T12:11:58.215Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/d25c492638ce123b:populateFiles  
+ <request body omitted>
+[debug] [2019-02-13T12:11:59.621Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:11:59.633Z] [hosting][populate queue][FINAL]
+[debug] [2019-02-13T12:11:59.633Z] [hosting] uploads queued: 15
+[info] i  hosting: uploading new files [0/15] (0%)
+[info] i  hosting: uploading new files [0/15] (0%)
+[info] i  hosting: uploading new files [9/15] (60%)
+[debug] [2019-02-13T12:12:05.756Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[dndpages]: file upload complete
+[debug] [2019-02-13T12:12:05.757Z] [hosting] deploy completed after 7931ms
+[debug] [2019-02-13T12:12:06.107Z] [
+  {
+    "config": {
+      "public": "./",
+      "ignore": [
+        "firebase.json",
+        "**/.*"
+      ],
+      "site": "dndpages"
+    },
+    "site": "dndpages",
+    "version": "sites/dndpages/versions/d25c492638ce123b"
+  }
+]
+[info] i  hosting[dndpages]: finalizing version...
+[debug] [2019-02-13T12:12:06.107Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/d25c492638ce123b?updateMask=status  
+
+[debug] [2019-02-13T12:12:07.109Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:12:07.109Z] [hosting] finalized version for dndpages:
+[info] ✔  hosting[dndpages]: version finalized
+[info] i  hosting[dndpages]: releasing new version...
+[debug] [2019-02-13T12:12:07.110Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/releases?version_name=sites/dndpages/versions/d25c492638ce123b  
+
+[debug] [2019-02-13T12:12:08.149Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:12:08.149Z] [hosting] release:
+[info] ✔  hosting[dndpages]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/dndpages/overview
+[info] Hosting URL: https://dndpages.firebaseapp.com
+[debug] [2019-02-13T12:12:56.184Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T12:12:56.187Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting --debug
+[debug] [2019-02-13T12:12:56.188Z] CLI Version:   6.3.1
+[debug] [2019-02-13T12:12:56.188Z] Platform:      darwin
+[debug] [2019-02-13T12:12:56.188Z] Node Version:  v8.5.0
+[debug] [2019-02-13T12:12:56.189Z] Time:          Wed Feb 13 2019 13:12:56 GMT+0100 (CET)
+[debug] [2019-02-13T12:12:56.189Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T12:12:56.206Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T12:12:56.206Z] > authorizing via signed-in user
+[debug] [2019-02-13T12:12:56.207Z] [iam] checking project dndpages for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-13T12:12:56.209Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dndpages:testIamPermissions  
+
+[debug] [2019-02-13T12:12:57.247Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:12:57.249Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dndpages  
+ 
+[debug] [2019-02-13T12:12:57.462Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-13T12:12:57.467Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions  
+
+[debug] [2019-02-13T12:12:58.917Z] <<< HTTP RESPONSE 200
+[info] i  hosting[dndpages]: beginning deploy...
+[info] i  hosting[dndpages]: found 16 files in ./
+[debug] [2019-02-13T12:12:58.931Z] [hosting] hash cache [] load error: lines is not defined
+[debug] [2019-02-13T12:12:59.327Z] [hosting] hash cache [] stored for 16 files
+[debug] [2019-02-13T12:12:59.327Z] [hosting][hash queue][FINAL]
+[debug] [2019-02-13T12:12:59.327Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/367b5ee2fb3c8808:populateFiles  
+ <request body omitted>
+[debug] [2019-02-13T12:13:00.814Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:13:00.818Z] [hosting][populate queue][FINAL]
+[debug] [2019-02-13T12:13:00.818Z] [hosting] uploads queued: 2
+[info] i  hosting: uploading new files [0/2] (0%)
+[info] i  hosting: uploading new files [0/2] (0%)
+[debug] [2019-02-13T12:13:04.202Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[dndpages]: file upload complete
+[debug] [2019-02-13T12:13:04.203Z] [hosting] deploy completed after 5285ms
+[debug] [2019-02-13T12:13:04.317Z] [
+  {
+    "config": {
+      "public": "./",
+      "ignore": [
+        "firebase.json"
+      ],
+      "site": "dndpages"
+    },
+    "site": "dndpages",
+    "version": "sites/dndpages/versions/367b5ee2fb3c8808"
+  }
+]
+[info] i  hosting[dndpages]: finalizing version...
+[debug] [2019-02-13T12:13:04.318Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/367b5ee2fb3c8808?updateMask=status  
+
+[debug] [2019-02-13T12:13:05.414Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:13:05.415Z] [hosting] finalized version for dndpages:
+[info] ✔  hosting[dndpages]: version finalized
+[info] i  hosting[dndpages]: releasing new version...
+[debug] [2019-02-13T12:13:05.415Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/releases?version_name=sites/dndpages/versions/367b5ee2fb3c8808  
+
+[debug] [2019-02-13T12:13:06.452Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:13:06.452Z] [hosting] release:
+[info] ✔  hosting[dndpages]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/dndpages/overview
+[info] Hosting URL: https://dndpages.firebaseapp.com
+[debug] [2019-02-13T12:17:53.818Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T12:17:53.822Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting --debug
+[debug] [2019-02-13T12:17:53.822Z] CLI Version:   6.3.1
+[debug] [2019-02-13T12:17:53.822Z] Platform:      darwin
+[debug] [2019-02-13T12:17:53.822Z] Node Version:  v8.5.0
+[debug] [2019-02-13T12:17:53.823Z] Time:          Wed Feb 13 2019 13:17:53 GMT+0100 (CET)
+[debug] [2019-02-13T12:17:53.823Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T12:17:53.835Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T12:17:53.835Z] > authorizing via signed-in user
+[debug] [2019-02-13T12:17:53.835Z] [iam] checking project dndpages for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-13T12:17:53.837Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dndpages:testIamPermissions  
+
+[debug] [2019-02-13T12:17:54.581Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:17:54.583Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dndpages  
+ 
+[debug] [2019-02-13T12:17:54.924Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-13T12:17:54.931Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions  
+
+[debug] [2019-02-13T12:17:56.402Z] <<< HTTP RESPONSE 200
+[info] i  hosting[dndpages]: beginning deploy...
+[info] i  hosting[dndpages]: found 16 files in ./
+[debug] [2019-02-13T12:17:56.412Z] [hosting] hash cache [] load error: lines is not defined
+[debug] [2019-02-13T12:17:56.793Z] [hosting] hash cache [] stored for 16 files
+[debug] [2019-02-13T12:17:56.793Z] [hosting][hash queue][FINAL]
+[debug] [2019-02-13T12:17:56.793Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/b0fa46f90d3b3390:populateFiles  
+ <request body omitted>
+[debug] [2019-02-13T12:17:58.070Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:17:58.073Z] [hosting][populate queue][FINAL]
+[debug] [2019-02-13T12:17:58.074Z] [hosting] uploads queued: 2
+[info] i  hosting: uploading new files [0/2] (0%)
+[info] i  hosting: uploading new files [0/2] (0%)
+[debug] [2019-02-13T12:18:00.671Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[dndpages]: file upload complete
+[debug] [2019-02-13T12:18:00.671Z] [hosting] deploy completed after 4268ms
+[debug] [2019-02-13T12:18:00.823Z] [
+  {
+    "config": {
+      "public": "./",
+      "ignore": [
+        "firebase.json"
+      ],
+      "site": "dndpages"
+    },
+    "site": "dndpages",
+    "version": "sites/dndpages/versions/b0fa46f90d3b3390"
+  }
+]
+[info] i  hosting[dndpages]: finalizing version...
+[debug] [2019-02-13T12:18:00.824Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/b0fa46f90d3b3390?updateMask=status  
+
+[debug] [2019-02-13T12:18:01.940Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:18:01.940Z] [hosting] finalized version for dndpages:
+[info] ✔  hosting[dndpages]: version finalized
+[info] i  hosting[dndpages]: releasing new version...
+[debug] [2019-02-13T12:18:01.942Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/releases?version_name=sites/dndpages/versions/b0fa46f90d3b3390  
+
+[debug] [2019-02-13T12:18:02.893Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:18:02.894Z] [hosting] release:
+[info] ✔  hosting[dndpages]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/dndpages/overview
+[info] Hosting URL: https://dndpages.firebaseapp.com
+[debug] [2019-02-13T12:19:00.197Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T12:19:00.201Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting --debug
+[debug] [2019-02-13T12:19:00.201Z] CLI Version:   6.3.1
+[debug] [2019-02-13T12:19:00.201Z] Platform:      darwin
+[debug] [2019-02-13T12:19:00.202Z] Node Version:  v8.5.0
+[debug] [2019-02-13T12:19:00.202Z] Time:          Wed Feb 13 2019 13:19:00 GMT+0100 (CET)
+[debug] [2019-02-13T12:19:00.202Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T12:19:00.215Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T12:19:00.216Z] > authorizing via signed-in user
+[debug] [2019-02-13T12:19:00.216Z] [iam] checking project dndpages for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-13T12:19:00.218Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dndpages:testIamPermissions  
+
+[debug] [2019-02-13T12:19:01.160Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:19:01.163Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dndpages  
+ 
+[debug] [2019-02-13T12:19:01.475Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-13T12:19:01.479Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions  
+
+[debug] [2019-02-13T12:19:02.830Z] <<< HTTP RESPONSE 200
+[info] i  hosting[dndpages]: beginning deploy...
+[info] i  hosting[dndpages]: found 16 files in ./
+[debug] [2019-02-13T12:19:02.842Z] [hosting] hash cache [] load error: lines is not defined
+[debug] [2019-02-13T12:19:03.259Z] [hosting] hash cache [] stored for 16 files
+[debug] [2019-02-13T12:19:03.260Z] [hosting][hash queue][FINAL]
+[debug] [2019-02-13T12:19:03.260Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/600e99b7f55d3a7d:populateFiles  
+ <request body omitted>
+[debug] [2019-02-13T12:19:04.640Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:19:04.643Z] [hosting][populate queue][FINAL]
+[debug] [2019-02-13T12:19:04.643Z] [hosting] uploads queued: 2
+[info] i  hosting: uploading new files [0/2] (0%)
+[info] i  hosting: uploading new files [0/2] (0%)
+[debug] [2019-02-13T12:19:07.304Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[dndpages]: file upload complete
+[debug] [2019-02-13T12:19:07.305Z] [hosting] deploy completed after 4474ms
+[debug] [2019-02-13T12:19:07.465Z] [
+  {
+    "config": {
+      "public": "./",
+      "ignore": [
+        "firebase.json"
+      ],
+      "site": "dndpages"
+    },
+    "site": "dndpages",
+    "version": "sites/dndpages/versions/600e99b7f55d3a7d"
+  }
+]
+[info] i  hosting[dndpages]: finalizing version...
+[debug] [2019-02-13T12:19:07.465Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/600e99b7f55d3a7d?updateMask=status  
+
+[debug] [2019-02-13T12:19:08.586Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:19:08.587Z] [hosting] finalized version for dndpages:
+[info] ✔  hosting[dndpages]: version finalized
+[info] i  hosting[dndpages]: releasing new version...
+[debug] [2019-02-13T12:19:08.587Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/releases?version_name=sites/dndpages/versions/600e99b7f55d3a7d  
+
+[debug] [2019-02-13T12:19:09.657Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:19:09.658Z] [hosting] release:
+[info] ✔  hosting[dndpages]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/dndpages/overview
+[info] Hosting URL: https://dndpages.firebaseapp.com
+[debug] [2019-02-13T12:33:12.092Z] ----------------------------------------------------------------------
+[debug] [2019-02-13T12:33:12.096Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting --debug
+[debug] [2019-02-13T12:33:12.096Z] CLI Version:   6.3.1
+[debug] [2019-02-13T12:33:12.097Z] Platform:      darwin
+[debug] [2019-02-13T12:33:12.097Z] Node Version:  v8.5.0
+[debug] [2019-02-13T12:33:12.097Z] Time:          Wed Feb 13 2019 13:33:12 GMT+0100 (CET)
+[debug] [2019-02-13T12:33:12.097Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-13T12:33:12.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-13T12:33:12.111Z] > authorizing via signed-in user
+[debug] [2019-02-13T12:33:12.111Z] [iam] checking project dndpages for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-13T12:33:12.113Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-13T12:33:12.114Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-13T12:33:12.326Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:33:12.347Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dndpages:testIamPermissions  
+
+[debug] [2019-02-13T12:33:13.125Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:33:13.126Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/dndpages  
+ 
+[debug] [2019-02-13T12:33:13.324Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dndpages'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-13T12:33:13.329Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions  
+
+[debug] [2019-02-13T12:33:14.692Z] <<< HTTP RESPONSE 200
+[info] i  hosting[dndpages]: beginning deploy...
+[info] i  hosting[dndpages]: found 16 files in ./
+[debug] [2019-02-13T12:33:14.705Z] [hosting] hash cache [] load error: lines is not defined
+[debug] [2019-02-13T12:33:15.102Z] [hosting] hash cache [] stored for 16 files
+[debug] [2019-02-13T12:33:15.103Z] [hosting][hash queue][FINAL]
+[debug] [2019-02-13T12:33:15.103Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/e51eaaebac71df9b:populateFiles  
+ <request body omitted>
+[debug] [2019-02-13T12:33:16.299Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:33:16.302Z] [hosting][populate queue][FINAL]
+[debug] [2019-02-13T12:33:16.303Z] [hosting] uploads queued: 2
+[info] i  hosting: uploading new files [0/2] (0%)
+[info] i  hosting: uploading new files [1/2] (50%)
+[debug] [2019-02-13T12:33:18.976Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[dndpages]: file upload complete
+[debug] [2019-02-13T12:33:18.976Z] [hosting] deploy completed after 4283ms
+[debug] [2019-02-13T12:33:19.039Z] [
+  {
+    "config": {
+      "public": "./",
+      "ignore": [
+        "firebase.json"
+      ],
+      "site": "dndpages"
+    },
+    "site": "dndpages",
+    "version": "sites/dndpages/versions/e51eaaebac71df9b"
+  }
+]
+[info] i  hosting[dndpages]: finalizing version...
+[debug] [2019-02-13T12:33:19.040Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/versions/e51eaaebac71df9b?updateMask=status  
+
+[debug] [2019-02-13T12:33:20.019Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:33:20.019Z] [hosting] finalized version for dndpages:
+[info] ✔  hosting[dndpages]: version finalized
+[info] i  hosting[dndpages]: releasing new version...
+[debug] [2019-02-13T12:33:20.020Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/dndpages/releases?version_name=sites/dndpages/versions/e51eaaebac71df9b  
+
+[debug] [2019-02-13T12:33:20.960Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-13T12:33:20.960Z] [hosting] release:
+[info] ✔  hosting[dndpages]: release complete
+[info] 
+[info] ✔  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/dndpages/overview
+[info] Hosting URL: https://dndpages.firebaseapp.com

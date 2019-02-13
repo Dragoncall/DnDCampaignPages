@@ -1,0 +1,61 @@
+{
+  "khalesh" : {
+    "description": "<p class='title has-text-centered'>Khalesh</p><p>Khalesh, the central continent on the plane of Zimmas, ruled by the Kundagar dynasty, its latest king Eric, is the most diverse of all continents. The many climates present on one huge landmass gift the citizens of this continent a plethora of produce. The deep caverns under the Virruk mountains supply the continent with gems and ores, while the farming communities around the Shiram and Zamnesia forest produce wheat and wood for the rest of the empire. In the West, the large Esmor Desert fills the landmass with sand. A couple of villages lie in this desolate landscape and focus on fashion and manufactures of all kinds of products. In the east, the great Ergalon Tundra compresses the ice essence. The region is focused on seal hunting and other hunting and fishing activities. In the south, Verkenarch stands proud as the largest outpost erected during the Arcanis Mortem. Thanks to the proximity to the sea in practically every village, many harbours have been constructed to transport the goods over the continent.</p>",
+    "cities": {
+      "Eos": {
+        "description": "<p class='title has-text-centered'>Eos</p><p>No info about this yet...</p>",
+        "x": "38%",
+        "y": "64%",
+        "size": "1000%"
+      },
+      "Mohram": {
+        "description": "<p class='title has-text-centered'>Mohram</p><p class=\"subtitle\">Geography</p><p>Mohram is situated in the northern end of the Esmor desert. It lies close to Eos, the capital city in the desert. It is surrounded by sand, but to the north of the city, a small patch of wetlands can be found which is used in agriculture.</p><p class=\"subtitle\">Economy</p><p>Mohram has always been an agricultural and crafting village. The wetlands are the perfect host for agricultural exploitation and the many artisans guilds show its economic past. During the last years though, the crafts have been exchanged with large manufactures of all kinds of items. The focus in Mohram lies on fashion though as a couple of the most famous artists have settled in Mohram.</p><p class=\"subtitle\">Politics</p><p>Having its origins as a small desert city, the city is ruled by a single mayor who guides the city to a more prosperous age. Besides this, not much interesting can be said about the politics of Mohram as it sticks to its simple organisational structure.</p>",
+        "x": "42%",
+        "y": "58%",
+        "size": "1000%"
+      },
+      "Ahramis": {
+        "description": "<p class='title has-text-centered'>Ahramis</p><p class=\"subtitle\">Geography</p><p>Ahramis is situated in the center of the Esmor Desert, far off from any natural water sources. The city is surrounded by a vast desert and it is warned to not stray from the roads as many people get lost every year (especially drunk people).</p><p class=\"subtitle\">Economy</p><p>Ahramis boasts 2 large squares, the artisans square and the merchant square, each focusing on different market segments. The high end items, such as books, potions and enchanted collectors items are sold on the merchant square, while woodworkers and smiths gather around the artisans square. These squares are a popular destination for visitors, but the city is most known for its entertainment business. The many cabarets and pubs are dispersed throughout the city, giving it a pleasant atmosphere at night. <br/> Due to the distance from water, the city created deep water wells, deep into the planes crust. These wells are used to pull up water from the deepest layers of the underdark.</p><p class=\"subtitle\">Politics</p><p>The political hierarchy in Ahramis is easy, due to its relatively small size. The town is ruled by the mayor, who is guided by a couple of advisers from the present guilds in Ahramis.</p>",
+        "x": "44%",
+        "y": "60%",
+        "size": "1000%"
+      },
+      "Emyralis": {
+        "description": "<p class='title has-text-centered'>Emyralis</p><p>No info about this yet...</p>",
+        "x": "46%",
+        "y": "56%",
+        "size": "1000%"
+      }
+    },
+    "x": "50%",
+    "y": "70%",
+    "size": "200%"
+  },
+  "eryltell" : {
+    "description": "Eryltell is super duper cool",
+    "cities": {
+
+    },
+    "x": "90%",
+    "y": "5%",
+    "size": "200%"
+  },
+  "verzug" : {
+    "description": "Verzug is super duper cool",
+    "cities": {
+
+    },
+    "x": "0%",
+    "y": "5%",
+    "size": "200%"
+  },
+  "azuros" : {
+    "description": "Azuros is super duper cool",
+    "cities": {
+
+    },
+    "x": "130%",
+    "y": "70%",
+    "size": "200%"
+  }
+}
