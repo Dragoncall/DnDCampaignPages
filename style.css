@@ -219,8 +219,16 @@ li {
 
 .active-description {
     margin-right: 20px;
-    padding: 25px 50px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
     background: linear-gradient(to right, #00000090, #00000040);
+}
+
+.info-content {
+    height: 100%;
+    padding-bottom: 25px;
+    overflow-y: scroll;
 }
 
 /*#info-block {
