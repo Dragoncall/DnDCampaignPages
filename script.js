@@ -95,17 +95,36 @@ function setActive(className, isCity) {
 }
 
 
+function showImages(name, isCity) {
+    let info = worldInfo
+    if (isCity) {
+        info = continentInfo
+    }
+    let imageLevel = $('#img-level')
+    let worldObject = info[name]
+    let i = 0
+
+    imageLevel.html('')
+    for (let image of worldObject.images) {
+        imageLevel.append($(generateImageItem('img-' + i, image)))
+        i += 1
+    }
+}
+
+
 function onFocusButton(className) {
     applyFocusClass(className, false)
     setText(className, false)
     setActive(className, false)
     showCities(className)
+    showImages(className, false)
 }
 
 function onFocusCityButton(className) {
     applyFocusClass(className, true)
     setText(className, true)
     setActive(className, true)
+    showImages(className, true)
 }
 
 
@@ -135,20 +154,8 @@ function focusCity(name) {
 
 // Continent Buttons
 
-function focusKhalesh() {
-    onFocusButton('khalesh')
-}
-
-function focusErylTell() {
-    onFocusButton('eryltell')
-}
-
-function focusAzuros() {
-    onFocusButton('azuros')
-}
-
-function focusVerZug() {
-    onFocusButton('verzug')
+function focusContinent(name) {
+    onFocusButton(name)
 }
 
 let isHidden = false;
@@ -167,6 +174,33 @@ function loadingDone() {
     $('#loading').addClass('is-hidden')
     $('#not-loading').removeClass('is-hidden')
 }
+
+function openModal(id) {
+    $('#' + id).addClass('is-active')
+}
+
+function closeModal(id) {
+    $('#' + id).removeClass('is-active')
+}
+
+function generateImageItem(id, imageUrl) {
+    return `<div class="level-item">
+        <img class="region-image" onclick="openModal('${id}')" src="${imageUrl}"/>
+        <div class="modal img-modal" id="${id}">
+            <div class="modal-background"></div>
+            <div class="modal-content modal-content-img">
+                <img class="region-image-fullscreen" src="${imageUrl}"/>
+            </div>
+            <button class="modal-close is-large" onclick="closeModal('${id}')" aria-label="close"></button>
+        </div>
+    </div>`
+}
+
+$(document).keydown(function(event) {
+    if(event.key === "Escape") {
+        $('.modal.img-modal').removeClass('is-active')
+    }
+})
 
 $( document ).ready(function() {
     getWorldInfo()

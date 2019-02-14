@@ -6,66 +6,77 @@
         "description": "<p class='title has-text-centered'>Esmor Desert</p><p>The Esmor Desert is a large desert lying in the west of Eos. The desolate landscape is filled with sand dunes and ruins of lost civilizations. Legends tell of a long lost, less barren land, but reasons why the desert was formed are currently still dubious.</p>",
         "x": "40%",
         "y": "64%",
-        "size": "400%"
+        "size": "400%",
+        "images": ["./images/khalesh/esmor_desert-1.jpg", "./images/khalesh/esmor_desert-2.png", "./images/khalesh/esmor_desert-3.jpg", "./images/khalesh/esmor_desert-4.jpg"]
       },
       "Eos": {
         "description": "<p class='title has-text-centered'>Eos</p><p>No info about this yet...</p>",
         "x": "38%",
         "y": "64%",
-        "size": "1000%"
+        "size": "1000%",
+        "images": ["./images/khalesh/eos-1.jpg"]
       },
       "Port_Pegasus": {
         "description": "<p class='title has-text-centered'>Port Pegasus</p><p class='subtitle'>Geography</p><p>Port Pegasus lies to the west of Eos, being the largest trading hub outside the city and an important crossing for multiple trade routes.</p><p class='subtitle'>Economy</p><p>Port Pegasus is the most important trading hub in the west of Khalesh. Most of the export goods consist of desert fruits and fashion created in Mohram, as well as rare ores and gems mined from the Mehryl mines. The port started as a small port town, but has grown in size, almost being twice the size of Ahramis.</p><p class='subtitle'>Politics</p><p>Port Pegasus falls under the jurisdiction of Eos and has no independent mayor. An appointed adviser is responsible for the port, but rules from Eos.</p>",
         "x": "37%",
         "y": "64%",
-        "size": "1000%"
+        "size": "1000%",
+        "images": ["./images/khalesh/Port_Pegasus-1.jpg"]
       },
       "Mohram": {
         "description": "<p class='title has-text-centered'>Mohram</p><p class=\"subtitle\">Geography</p><p>Mohram is situated in the northern end of the Esmor desert. It lies close to Eos, the capital city in the desert. It is surrounded by sand, but to the north of the city, a small patch of wetlands can be found which is used in agriculture.</p><p class=\"subtitle\">Economy</p><p>Mohram has always been an agricultural and crafting village. The wetlands are the perfect host for agricultural exploitation and the many artisans guilds show its economic past. During the last years though, the crafts have been exchanged with large manufactures of all kinds of items. The focus in Mohram lies on fashion though as a couple of the most famous artists have settled in Mohram.</p><p class=\"subtitle\">Politics</p><p>Having its origins as a small desert city, the city is ruled by a single mayor who guides the city to a more prosperous age. Besides this, not much interesting can be said about the politics of Mohram as it sticks to its simple organisational structure.</p>",
         "x": "42%",
         "y": "58%",
-        "size": "1000%"
+        "size": "1000%",
+        "images": ["./images/khalesh/Mohram-1.png", "./images/khalesh/Mohram-map.png"]
       },
       "Ahramis": {
         "description": "<p class='title has-text-centered'>Ahramis</p><p class=\"subtitle\">Geography</p><p>Ahramis is situated in the center of the Esmor Desert, far off from any natural water sources. The city is surrounded by a vast desert and it is warned to not stray from the roads as many people get lost every year (especially drunk people).</p><p class=\"subtitle\">Economy</p><p>Ahramis boasts 2 large squares, the artisans square and the merchant square, each focusing on different market segments. The high end items, such as books, potions and enchanted collectors items are sold on the merchant square, while woodworkers and smiths gather around the artisans square. These squares are a popular destination for visitors, but the city is most known for its entertainment business. The many cabarets and pubs are dispersed throughout the city, giving it a pleasant atmosphere at night. <br/> Due to the distance from water, the city created deep water wells, deep into the planes crust. These wells are used to pull up water from the deepest layers of the underdark.</p><p class=\"subtitle\">Politics</p><p>The political hierarchy in Ahramis is easy, due to its relatively small size. The town is ruled by the mayor, who is guided by a couple of advisers from the present guilds in Ahramis.</p>",
         "x": "44%",
         "y": "60%",
-        "size": "1000%"
+        "size": "1000%",
+        "images": ["./images/khalesh/Ahramis-map.png"]
       },
       "Emyralis": {
         "description": "<p class='title has-text-centered'>Emyralis</p><p>No info about this yet...</p>",
         "x": "46%",
         "y": "56%",
-        "size": "1000%"
+        "size": "1000%",
+        "images": []
       },
       "Mehryl": {
         "description": "<p class='title has-text-centered'>Mehryl</p><p class=\"subtitle\">Geography</p><p>Mehryl lies in the southern part of the Esmor desert, only connected to other villages by a road to Ahramis. It lies a few miles from the sea, giving it a steady supply of water.</p><p class=\"subtitle\">Economy</p><p>Mehryl was once a flourishing city, filled with manufactures. The real money was gained in the mines of Mehryl, where gems and ores were found easily. The discovery of arcane crystals in the mines triggered a huge gold rush. Now, the gold rush ended due to abominations swarming the mines and the manufactures left Mehryl. The town is now on the brink of collapse as its citizen numbers dwindle.</p><p class=\"subtitle\">Politics</p><p>As with all neighbouring villages, Mehryl has a mayor who rules the city. The city also has a large mining guild who has a large hold over the mayor and the city.</p>",
         "x": "48%",
         "y": "66%",
-        "size": "1000%"
+        "size": "1000%",
+        "images": ["./images/khalesh/mehryl-1.jpg"]
       },
       "Central_Khalesh": {
         "description": "<p class='title has-text-centered'>Central Khalesh</p><p>Central Khalesh, mostly known for its lush forests and large plains of grass, lies in the middle of Khalesh. This region is mostly known for its agriculture, as it has a temperate climate perfect for agriculture. Small farming villages dot the plains, only split by the large mountain range, the Virruk Mountains. Trade is also flourishing in this region with the 2 large port cities.</p>",
         "x": "60%",
         "y": "58%",
-        "size": "350%"
+        "size": "350%",
+        "images": ["./images/khalesh/Central-Khalesh.jpg"]
       },
       "Shembran_Harbor": {
         "description": "<p class='title has-text-centered'>Shembran Harbor</p><p class='subtitle'>Geography</p><p>Shembran Harbor is the largest harbor city on the western side of the Virruk Mountains. Its position on Khalesh makes it a frequently visited port on practically every trade route.</p><p class='subtitle'>Economy</p><p>The harbor has grown rapidly these last years to a size that's comparable to the largest cities on Khalesh. The many wooden shacks are packed within the walls of the city, with some shacks even resting on a wooden platform over the water. The city is in a constant struggle with the water and has made precautions against the strong storms. The city mainly lives from fishing and trade, sailors making up the largest portion of its citizens.</p><p class='subtitle'>Politics</p><p>Due to its size, the political hierarchy in Shembran Harbor is slightly more complex. The mayor sits on top, with some advisers hailing from the nobility aiding the mayor in representing all citizens.</p>",
         "x": "50%",
         "y": "48%",
-        "size": "1000%"
+        "size": "1000%",
+        "images": ["./images/khalesh/Shembran_Harbour.png"]
       },
       "Sherwey": {
         "description": "<p class='title has-text-centered'>Sherwey</p><p class='subtitle'>Geography</p><p>Sherwey lies in the middle of Shiram Forest, in Central Khalesh. The climate and soil make it the perfect spot for agriculture.</p><p class='subtitle'>Economy</p><p>The little farming village mainly produces fruit and vegetables, the most important export product being watermelons. This has earned the city the nickname: 'Melonshire'. Due to being located in the forest, where animals and abominations roam, a slayers guild has been erected in recent years with funding from the crown.</p><p class='subtitle'>Politics</p><p>Traditionally, the scale of the city made it perfect to be ruled by one person, the village elder. When Sherwey was absorbed in the Kundagar Empire, a mayor was appointed by the villagers to replace the village elder.</p>",
         "x": "58%",
         "y": "54%",
-        "size": "1000%"
+        "size": "1000%",
+        "images": ["./images/khalesh/Sherwey.jpg", "./images/khalesh/Sherwey-1.jpg", "./images/khalesh/Sherwey-2.jpg"]
       }
     },
     "x": "50%",
     "y": "70%",
-    "size": "200%"
+    "size": "200%",
+    "images": []
   },
   "eryltell" : {
     "description": "Eryltell is super duper cool",
@@ -74,7 +85,8 @@
     },
     "x": "90%",
     "y": "5%",
-    "size": "200%"
+    "size": "200%",
+    "images": []
   },
   "verzug" : {
     "description": "Verzug is super duper cool",
@@ -83,7 +95,8 @@
     },
     "x": "0%",
     "y": "5%",
-    "size": "200%"
+    "size": "200%",
+    "images": []
   },
   "azuros" : {
     "description": "Azuros is super duper cool",
@@ -92,6 +105,7 @@
     },
     "x": "130%",
     "y": "70%",
-    "size": "200%"
+    "size": "200%",
+    "images": []
   }
 }
