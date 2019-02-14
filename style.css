@@ -236,6 +236,11 @@ li {
     overflow-y: scroll;
 }*/
 
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 .region-image {
     vertical-align: middle;
     padding: 5px 16px;
