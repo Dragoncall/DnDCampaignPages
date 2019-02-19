@@ -63,7 +63,7 @@
         "x": "50%",
         "y": "48%",
         "size": "1000%",
-        "images": ["./images/khalesh/Shembran_Harbour.png", "./images/khalesh/ShembranHarbour-1.jpg"]
+        "images": ["./images/khalesh/shadar-castle-1.jpg"]
       },
       "Shembran_Harbor": {
         "description": "<p class='title has-text-centered'>Shembran Harbor</p><p class='subtitle'>Geography</p><p>Shembran Harbor is the largest harbor city on the western side of the Virruk Mountains. Its position on Khalesh makes it a frequently visited port on practically every trade route.</p><p class='subtitle'>Economy</p><p>The harbor has grown rapidly these last years to a size that's comparable to the largest cities on Khalesh. The many wooden shacks are packed within the walls of the city, with some shacks even resting on a wooden platform over the water. The city is in a constant struggle with the water and has made precautions against the strong storms. The city mainly lives from fishing and trade, sailors making up the largest portion of its citizens.</p><p class='subtitle'>Politics</p><p>Due to its size, the political hierarchy in Shembran Harbor is slightly more complex. The mayor sits on top, with some advisers hailing from the nobility aiding the mayor in representing all citizens.</p>",
