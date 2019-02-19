@@ -58,12 +58,19 @@
         "size": "350%",
         "images": ["./images/khalesh/Central-Khalesh.jpg"]
       },
+      "Shadar_Castle": {
+        "description": "<p class='title has-text-centered'>Shadar Castle</p><p class='subtitle'>Geography</p><p>Where the sand switches to grass, the lonely Shadar Castle lies on a hillside. The central, but desolate location makes it easy to hold diplomatic encounters within the castle.</p><p class='subtitle'>Economy</p><p>Due to the political and military nature of the castle, not much of an economy exists in the castle. All goods and upkeep is funded by the crown.</p><p class='subtitle'>Politics</p><p>Due to the castle lying on top an ancient artifact, the entire zone requires everyone that stands in it to be truthful. This makes it perfect for diplomatic missions, as hidden agendas are much harder to keep. Due to this, multiple diplomatic missions have been held in this castle, even amongst gods and clergy. The artifact has never been seen though.</p>",
+        "x": "50%",
+        "y": "48%",
+        "size": "1000%",
+        "images": ["./images/khalesh/Shembran_Harbour.png", "./images/khalesh/ShembranHarbour-1.jpg"]
+      },
       "Shembran_Harbor": {
         "description": "<p class='title has-text-centered'>Shembran Harbor</p><p class='subtitle'>Geography</p><p>Shembran Harbor is the largest harbor city on the western side of the Virruk Mountains. Its position on Khalesh makes it a frequently visited port on practically every trade route.</p><p class='subtitle'>Economy</p><p>The harbor has grown rapidly these last years to a size that's comparable to the largest cities on Khalesh. The many wooden shacks are packed within the walls of the city, with some shacks even resting on a wooden platform over the water. The city is in a constant struggle with the water and has made precautions against the strong storms. The city mainly lives from fishing and trade, sailors making up the largest portion of its citizens.</p><p class='subtitle'>Politics</p><p>Due to its size, the political hierarchy in Shembran Harbor is slightly more complex. The mayor sits on top, with some advisers hailing from the nobility aiding the mayor in representing all citizens.</p>",
         "x": "50%",
         "y": "48%",
         "size": "1000%",
-        "images": ["./images/khalesh/Shembran_Harbour.png"]
+        "images": ["./images/khalesh/Shembran_Harbour.png", "./images/khalesh/ShembranHarbour-1.jpg"]
       },
       "Sherwey": {
         "description": "<p class='title has-text-centered'>Sherwey</p><p class='subtitle'>Geography</p><p>Sherwey lies in the middle of Shiram Forest, in Central Khalesh. The climate and soil make it the perfect spot for agriculture.</p><p class='subtitle'>Economy</p><p>The little farming village mainly produces fruit and vegetables, the most important export product being watermelons. This has earned the city the nickname: 'Melonshire'. Due to being located in the forest, where animals and abominations roam, a slayers guild has been erected in recent years with funding from the crown.</p><p class='subtitle'>Politics</p><p>Traditionally, the scale of the city made it perfect to be ruled by one person, the village elder. When Sherwey was absorbed in the Kundagar Empire, a mayor was appointed by the villagers to replace the village elder.</p>",
@@ -79,7 +86,7 @@
     "images": []
   },
   "eryltell" : {
-    "description": "Eryltell is super duper cool",
+    "description": "<p class='title has-text-centered'>Eryl'Tell</p><p>The continent of Eryl'Tell has been ravaged by multiple wars, the Arcanis Mortem being the largest of them. Thanks to the continents knowledge of the arcane, they were able to hold off the invading minions of the gods. Now the continent lies quiet, the remaining aberrations hiding in the forest Arcanis. A couple of settlements were built outside Eryl'Tell, but few lasted more than a decade due to invading monsters.</p>",
     "cities": {
 
     },
@@ -89,7 +96,7 @@
     "images": []
   },
   "verzug" : {
-    "description": "Verzug is super duper cool",
+    "description": "<p class='title has-text-centered'>Ver'Zug</p><p>Ver'Zug, also known as the broken continent, houses a couple of large settlements. The dwarven kingdom of Highgarden lies in the large mountain range. The large city of Waterbark lies in the southern tip of the continent, living from fishing and trade. A few other cities are located near Waterbark and are working together, not under a kingdom, but under an alliance. To the north of the continent, the Goliaths live in a couple of clans. The temperatures are so low, only they can survive the cold for more than a few days.</p>",
     "cities": {
 
     },
@@ -99,13 +106,13 @@
     "images": []
   },
   "azuros" : {
-    "description": "Azuros is super duper cool",
+    "description": "<p class='title has-text-centered'>Azuros</p><p>Azuros, Isles of Gold, Jewel of the Ocean, is a large collection of islands to the east of Khalesh. The islands come in all types and shapes, as do their inhabitants. The continent is ruled by King Darcy Cercyn III, its economy is flourishing, despite the many pirates lurking on its trade routes. Due to its hot climate, Azuros is able to trade exotic luxury fruits with its neighbouring continents, making the continent quite wealthy.</p>",
     "cities": {
 
     },
     "x": "130%",
     "y": "70%",
     "size": "200%",
-    "images": []
+    "images": ["./images/azuros/azuros-1.jpg"]
   }
 }
