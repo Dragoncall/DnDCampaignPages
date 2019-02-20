@@ -61,7 +61,7 @@
       "Shadar_Castle": {
         "description": "<p class='title has-text-centered'>Shadar Castle</p><p class='subtitle'>Geography</p><p>Where the sand switches to grass, the lonely Shadar Castle lies on a hillside. The central, but desolate location makes it easy to hold diplomatic encounters within the castle.</p><p class='subtitle'>Economy</p><p>Due to the political and military nature of the castle, not much of an economy exists in the castle. All goods and upkeep is funded by the crown.</p><p class='subtitle'>Politics</p><p>Due to the castle lying on top an ancient artifact, the entire zone requires everyone that stands in it to be truthful. This makes it perfect for diplomatic missions, as hidden agendas are much harder to keep. Due to this, multiple diplomatic missions have been held in this castle, even amongst gods and clergy. The artifact has never been seen though.</p>",
         "x": "50%",
-        "y": "48%",
+        "y": "58%",
         "size": "1000%",
         "images": ["./images/khalesh/shadar-castle-1.jpg"]
       },
