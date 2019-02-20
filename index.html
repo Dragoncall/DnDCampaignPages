@@ -3,60 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="bulma.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
 
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="index_style.css">
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
 </head>
 <body>
-    <div class="is-hidden" id="not-loading">
-        <div style="position: absolute; right: 10px; top: 10px; z-index: 1;">
-            <button class="button is-white" onclick="hideOverlays()">Hide Overlay</button>
+    <div class="hero is-dark is-fullsize" id="title-hero">
+        <div class="hero-head has-text-centered" id="title-div">
+            <p class="title has-title-text">The Dulcet Dawn</p>
+            <p class="subtitle has-title-text">An interactive D&D notebook</p>
         </div>
-        <section class="hero is-dark semi-opaque-background animate-world" style="height: 100vh; width: 100vw;" id="top-hero">
-            <div class="animate-world-overlay" style="height: 100vh; width: 100vw;" id="world-overlay">
-                <div class="hero-body is-fullwidth" style="height: 100vh; max-height: 100vh;">
-                    <div class="container" style="height: 100%;">
-                        <div style="width: 100%; margin-left: auto; margin-right: auto; overflow-y: scroll; overflow-x: hidden; height: 100%">
-                            <p class="title has-text-centered" style="margin-bottom: 64px">Zimmas</p>
-                            <div class="columns">
-                                <div class="column is-3 button-block">
-                                    <div class="has-text-left">
-                                        <button id="button-khalesh" onclick="focusContinent('khalesh')" class="continent-button subtitle is-block">Khalesh</button>
-                                        <button id="button-eryltell" onclick="focusContinent('eryltell')" class="continent-button subtitle is-block">Eryl'tell</button>
-                                        <button id="button-azuros" onclick="focusContinent('azuros')" class="continent-button subtitle is-block">Azuros</button>
-                                        <button id="button-verzug" onclick="focusContinent('verzug')" class="continent-button subtitle is-block">Ver'Zug</button>
-                                    </div>
-                                </div>
-                                <div class="column is-3 is-hidden button-block" id="sub-menu">
-                                </div>
-                                <div class="column is-4 button-block" id="description">
-                                    <div class="content has-text-left info-content">
-                                        <div id="info-block"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="level image-level">
-                                <div class="level-left" id="img-level">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="hero-body has-text-centered">
+            <div class="is-index-button-parent">
+                <a class="is-index-button" href="worldmap/">World Map</a>
             </div>
-        </section>
-    </div>
-    <section class="hero is-dark" style="height: 100vh; width: 100vw;" id="loading">
-        <div class="hero-body">
-            <p class="has-text-centered loading-text title">Loading...</p>
-            <progress class="progress is-large is-info"></progress>
+            <div class="is-index-button-parent">
+                <a class="is-index-button" href="characters/">Characters</a>
+            </div>
         </div>
-    </section>
-
-    <!-- Scripts -->
-
-    <script src="jquery-3.3.1.min.js"></script>
-    <script src='jquery.keyframes.min.js'></script>
-    <script src="script.js"></script>
+    </div>
 </body>
 </html>

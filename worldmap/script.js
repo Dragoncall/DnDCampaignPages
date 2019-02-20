@@ -133,7 +133,7 @@ function getWorldInfo() {
     $.ajax({
         dataType: "json",
         type: "get",
-        url: 'descriptions.json',
+        url: './descriptions.json',
         cache:false,
         success: function(data){
             worldInfo = data;
@@ -205,9 +205,9 @@ $(document).keydown(function(event) {
 $( document ).ready(function() {
     getWorldInfo()
     $.keyframe.define([]); // Init the keyframe shizzle
-    $('<img/>').attr('src', 'World.jpg').on('load', function() {
+    $('<img/>').attr('src', './World.jpg').on('load', function() {
         $(this).remove(); // prevent memory leaks as @benweet suggested
-        $('#top-hero').css('background-image', 'url("World.jpg")');
+        $('#top-hero').css('background-image', 'url("./World.jpg")');
         loadingDone()
     });
 });

@@ -1,0 +1,41 @@
+body {
+    overscroll-behavior: none;
+    font-family: 'MedievalSharp', cursive !important;
+}
+
+.is-fullsize {
+    height: 100vh;
+    width: 100vw;
+}
+
+.is-index-button {
+    font-size: xx-large;
+    padding: 16px;
+    border-radius: 5%;
+    background: #00000070;
+}
+
+.is-index-button-parent {
+    margin: 48px;
+}
+
+#title-div {
+    margin: 50px;
+}
+
+#title-hero {
+    background: url("dulcet-dawn.jpg") center 60%;
+    background-size: cover;
+}
+
+.subtitle.has-title-text {
+    font-size: 32px;
+}
+
+.title.has-title-text {
+    font-size: 64px;
+}
+
+.has-title-text {
+    text-shadow: 3px 3px 16px black;
+}
