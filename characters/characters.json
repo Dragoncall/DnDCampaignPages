@@ -2,14 +2,14 @@
   "Arysa_Cyrox": {
     "profession": "Barkeep",
     "location": "Ahramis",
-    "description": "Barkeep at the Singing Fountain",
+    "description": "Arysa, the barkeep of the Singing Fountain, has been serving customers with a smile for years. As tourists come inside after a wild night of partying, Arysa's warm smile welcomes them inside the inn, her cuisine prepares them for a new night of partying in the famous party city Ahramis.",
     "image": "./images/arysa.png",
     "known": true
   },
   "Totally not Arysa_Cyrox": {
     "profession": "Barkeep",
     "location": "Ahramis",
-    "description": "Barkeep at the Singing Fountain",
+    "description": "Arysa, the barkeep of the Singing Fountain, has been serving customers with a smile for years. As tourists come inside after a wild night of partying, Arysa's warm smile welcomes them inside the inn, her cuisine prepares them for a new night of partying in the famous party city Ahramis.",
     "image": "./images/arysa.png",
     "known": false
   }
