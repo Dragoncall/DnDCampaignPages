@@ -8,5 +8,10 @@
     "artist": "Femke",
     "description": "Portrait of Adria Val'Ori Bag'Et made by The Silver Brush painting workshop.",
     "image": "./images/Adria.png"
+  },
+  "Kayla_Lindenhill": {
+    "artist": "Lena",
+    "description": "Self portrait of Kayla Lindenhill.",
+    "image": "./images/kayla.png"
   }
 }
