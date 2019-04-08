@@ -1,0 +1,12 @@
+{
+  "JulDhin_Rahndyr": {
+    "artist": "Ruben",
+    "description": "Jul'Dhin Rahndyr, commander of the first Tembolas division.",
+    "image": "./images/Juldhin_metwapen.png"
+  },
+  "Adria_ValOri_BagEt": {
+    "artist": "Femke",
+    "description": "Portrait of Adria Val'Ori Bag'Et made by The Silver Brush painting workshop.",
+    "image": "./images/Adria.png"
+  }
+}
